@@ -1,0 +1,88 @@
+/*------------------------------------
+
+            RESET
+
+------------------------------------*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------------------------------
+
+            GENERAL
+
+------------------------------------*/
+/*------------------------------------
+            IMG
+------------------------------------*/
+img
+{
+    max-width: 100%;
+}
+/*------------------------------------
+            FONT
+------------------------------------*/
+body
+{
+    font-family: "Montserrat", sans-serif;
+}
+/*------------------------------------
+
+            HEADER
+
+------------------------------------*/
+.upgrade-section
+{
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.upgrade-btn
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px 45px;
+    margin: 20px;
+    cursor: pointer;
+}
+.upgrade-btn:hover
+{
+    margin: 15px;
+    border-radius: 40px;
+    font-size: 16px;
+}
+.upgrade-btn a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+}
+/*------------------------------------
+
+            ASIDE
+
+------------------------------------*/
+aside
+{
+    display: flex;
+}
+.options-section, .playlist-section
+{
+    background-color: black;
+    color: #6d6d6d;
+}
+/*------------------------------------
+
+            OPTIONS
+------------------------------------*/
+.options div
+{
+    display: flex;
+    align-items: center;
+}
