@@ -45,13 +45,13 @@ body
     background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid white;
     border-radius: 30px;
-    padding: 15px 45px;
-    margin: 20px;
+    padding: 5px 50px;
+    margin: 25px;
     cursor: pointer;
 }
 .upgrade-btn:hover
 {
-    margin: 15px;
+    margin: 20px;
     border-radius: 40px;
     font-size: 16px;
 }
@@ -70,19 +70,129 @@ body
 ------------------------------------*/
 aside
 {
-    display: flex;
-}
-.options-section, .playlist-section
-{
     background-color: black;
     color: #6d6d6d;
+    max-width: 18%;
 }
 /*------------------------------------
 
+            OPTIONS-SECTION
+------------------------------------*/
+.options-section
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.options-section div
+{
+    padding: 10px 0;
+}
+.options-section a
+{
+    text-decoration: none;
+    color: #6d6d6d;
+}
+.options-section div:not(:first-child)
+{
+    display: flex;
+    flex-direction: column;
+}
+.options-section h3
+{
+    font-size: 16px;
+}
+/*------------------------------------
             OPTIONS
 ------------------------------------*/
+.logo-big img
+{
+    max-width: 70%;
+}
 .options div
 {
     display: flex;
     align-items: center;
+}
+.options img
+{
+    width: 10%;
+    margin-right: 10px;
+}
+/*------------------------------------
+            PLAYLIST
+------------------------------------*/
+.playlist div
+{
+    display: flex;
+    align-items: center;
+}
+.playlist > h3
+{
+    color: white;
+}
+.create-pl a
+{
+    color: #6d6d6d;
+}
+.playlist li
+{
+    list-style-type: none;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.create-pl i
+{
+    font-size: 50px;
+    margin-right: 20px;
+}
+/*------------------------------------
+
+            INSTALL-PROFILE
+------------------------------------*/
+.install-profile
+{
+    justify-content: end;
+}
+.install-profile h3
+{
+    padding-left: 15px;
+}
+.install-profile hr
+{
+    display: flex;
+    justify-content: center;
+}
+.install a, .profile a
+{
+    display: flex;
+    align-items: center;
+}
+/*------------------------------------
+            INSTALL
+------------------------------------*/
+.install img
+{
+    width: 10%;
+}
+/*------------------------------------
+            PROFILE
+------------------------------------*/
+.profile-circle
+{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #6d6d6d;
+}
+.profile-circle img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
 }
